@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #d0c7ff;
+}
+
+/*FORM*/
+form {
+    text-align: center;
+    background-color: #e2e2e2;
+    width: 100%;
+    max-width: 800px;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.section-form {
+    padding: 30px;
+}
+
+/* form, h1 {
+    padding: 10px;
+    color: #fff;
+} */
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-input {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0px 4px;
+}
+
+.input::placeholder {
+    color: #bcbcbc;
+}
+
+.input:hover {
+    border: 2px solid #0086ef;
+}
+
+.btn-add {
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 4px;
+    background-color: #0086ef;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.btn-add:hover {
+    background-color: #fff;
+    border: 1px solid #0086ef;
+    color: #0086ef;
+}
+
+@media screen and (max-width: 500px) {
+    .container-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .btn-add {
+        width: 100%;
+        height: 30px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 0px 4px;
+        background-color: #0086ef;
+        color: #fff;
+        border-radius: 4px;
+        transition: all 0.5s;
+    }
+}
+
+/*TABLE*/
+table {
+    text-align: center;
+    background-color: #e2e2e2;
+    width: 100%;
+    max-width: 800px;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+tbody {
+    background-color: #aaaaaa;
+    color: #fff;
+}
+
+tbody td {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.section-table {
+    padding: 30px;
+}

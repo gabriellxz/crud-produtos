@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "valorProduto": 2000,
+      "quantidade": 4,
+      "produto": "Computador",
+      "id": 2
+    }
+  ]
+}
